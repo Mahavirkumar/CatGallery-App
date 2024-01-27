@@ -72,8 +72,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     //HILT
-    implementation("com.google.dagger:hilt-android:2.44")
-    kapt("com.google.dagger:hilt-compiler:2.44")
+    implementation("com.google.dagger:hilt-android:2.46")
+    kapt("com.google.dagger:hilt-compiler:2.46")
 
      val lifecycle_version = "2.7.0"
 
@@ -92,4 +92,5 @@ dependencies {
 
     //coil
     implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 }
