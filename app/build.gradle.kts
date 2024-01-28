@@ -93,4 +93,17 @@ dependencies {
     //coil
     implementation("io.coil-kt:coil-compose:2.5.0")
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+
+    //Coroutines test
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
+    //mockwebserver test
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.9.0")
+    //mock test
+    testImplementation("org.mockito:mockito-core:3.6.0")
+    testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
+
+    testImplementation("androidx.test:core:1.2.0")
+    testImplementation("androidx.test.ext:truth:1.2.0")
 }

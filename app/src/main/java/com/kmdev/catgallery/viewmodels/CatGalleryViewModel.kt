@@ -20,7 +20,7 @@ class CatGalleryViewModel @Inject constructor(private val catGalleryRepository: 
         fetchCatImages()
     }
 
-    private fun fetchCatImages() {
+    fun fetchCatImages() {
         viewModelScope.launch {
             try {
                 catGalleryRepository.getCatImages()
